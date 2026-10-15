@@ -1,3 +1,7 @@
+concurrency:
+  group: terraform-state
+  cancel-in-progress: false
+  
 name: App deployment
 
 on:
