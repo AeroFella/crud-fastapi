@@ -48,4 +48,6 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add terraform.tfstate
         git commit -m "chore: automated log update [skip ci]"
-        git push
+        git pull --rebase origin main
+        git push origin main
+
