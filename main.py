@@ -1,4 +1,4 @@
-npmfrom fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 import models, schemas
 from database import SessionLocal, engine
